@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:alpha="0.8"
+    android:background="@android:color/black"
+    android:orientation="horizontal" >
+
+    <!-- 
+    <TextView
+        android:id="@+id/timerTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:text="00:00:00"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="30sp" />
+     -->
+    
+    <Chronometer
+        android:id="@+id/timerC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/startStopB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/finalStopB"
+        android:background="@android:color/holo_green_light"
+        android:text=" Enter "
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/finalStopB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/holo_red_dark"
+        android:text=" Last exit " />
+
+</RelativeLayout>

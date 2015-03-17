@@ -1,0 +1,16 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/worktimer_appwidget"
+    android:minHeight="40dp"
+    android:minWidth="250dp"
+    android:previewImage="@drawable/ic_launcher"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="10" 
+    >
+
+    <!--
+ android:widgetCategory="home_screen|keyguard" 
+  android:configure="com.example.android.ExampleAppWidgetConfigure" 
+ android:initialKeyguardLayout="@layout/example_keyguard"
+    -->
+
+</appwidget-provider>
